@@ -7,7 +7,7 @@ body, html {
     align-items: center;
     background: linear-gradient(135deg, #6e8efb, #a777e3);
     background-size: cover;
-    background: url('bg.jpg') no-repeat center center fixed;
+    background: url('assets/bg.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -191,22 +191,22 @@ button:active {
 }
 
 .leaf-1 {
-    background-image: url('leaf_01.png');
+    background-image: url('assets/leaf_01.png');
     left: 10%;
 }
 
 .leaf-2 {
-    background-image: url('leaf_02.png');
+    background-image: url('assets/leaf_02.png');
     left: 30%;
 }
 
 .leaf-3 {
-    background-image: url('leaf_03.png');
+    background-image: url('assets/leaf_03.png');
     left: 50%;
 }
 
 .leaf-4 {
-    background-image: url('leaf_04.png');
+    background-image: url('assets/leaf_04.png');
     left: 70%;
 }
 
