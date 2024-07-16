@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slideshow</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="assets/image1.jpg" alt="apples">
+      <div class="caption">Apples</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="assets/image2.jpg" alt="carved wall">
+      <div class="caption">Wall Sculpture</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="assets/image3.jpg" alt="knife and apricot">
+      <div class="caption">Apricot And The Knife</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="assets/image4.jpg" alt="bubble wrap">
+      <div class="caption">The Bubble Wrap</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="assets/image5.jpg" alt="women in boats">
+      <div class="caption">Two Women In Boats</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="assets/image6.jpg" alt="cloth clips">
+      <div class="caption">Two Cloth Clips</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="assets/image7.jpg" alt="eye sight lenses">
+      <div class="caption">Eye Sight Lenses</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="assets/image8.jpg" alt="coca cola">
+      <div class="caption">Coca Cola !!</div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="thumbnail-container">
+      <div class="thumbnail" onclick="currentSlide(1)">
+        <img src="assets/image1.jpg" alt="Apples">
+      </div>
+      <div class="thumbnail" onclick="currentSlide(2)">
+        <img src="assets/image2.jpg" alt="Wall Sculpture">
+      </div>
+      <div class="thumbnail" onclick="currentSlide(3)">
+        <img src="assets/image3.jpg" alt="Apricot And The Knife">
+      </div>
+      <div class="thumbnail" onclick="currentSlide(4)">
+        <img src="assets/image4.jpg" alt="The Bubble Wrap">
+      </div>
+      <div class="thumbnail" onclick="currentSlide(5)">
+        <img src="assets/image5.jpg" alt="Two Women In Boats">
+      </div>
+      <div class="thumbnail" onclick="currentSlide(6)">
+        <img src="assets/image6.jpg" alt="Two Cloth Clips">
+      </div>
+      <div class="thumbnail" onclick="currentSlide(7)">
+        <img src="assets/image7.jpg" alt="Eye Sight Lenses">
+      </div>
+      <div class="thumbnail" onclick="currentSlide(8)">
+        <img src="assets/image8.jpg" alt="Coca Cola !!">
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
