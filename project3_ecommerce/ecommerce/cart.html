@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - E-commerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="assets/logo.jpg" class="logo"></img>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+        </ul>
+    </nav>
+
+    <main class="cart-container">
+        <h1>Your Cart</h1>
+        <ul id="cart-items" class="cart-items">
+            <!-- Cart items will be inserted here dynamically -->
+        </ul>
+        <div class="total">
+            Total: $<span id="total-amount">0.00</span>
+        </div>
+        <button class="checkout-btn">Checkout</button>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

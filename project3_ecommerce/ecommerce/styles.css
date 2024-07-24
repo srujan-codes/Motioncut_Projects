@@ -1,0 +1,361 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+}
+
+.navbar .logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar .nav-links li {
+    margin: 0;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+    color: #e67e22;
+}
+
+/* Product Container Styles */
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.product-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-image img {
+    width: 600px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.thumbnails {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.thumbnails img {
+    width: 100px;
+    height: 66px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.thumbnails img:hover {
+    transform: scale(1.1);
+}
+
+.product-details {
+    text-align: center;
+}
+
+.product-name {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.product-description {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    color: #e67e22;
+    margin: 1rem 0;
+}
+
+.add-to-cart {
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #d35400;
+}
+
+/* Reviews Styles */
+.reviews {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.reviews h2 {
+    margin-bottom: 1rem;
+}
+
+.review {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+}
+
+.review p {
+    margin: 0;
+}
+
+/* Related Products Styles */
+.related-products {
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.related-products h2 {
+    margin-bottom: 1rem;
+}
+
+.related-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.related-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.related-item img:hover {
+    transform: scale(1.1);
+}
+
+.related-item p {
+    margin: 0.5rem 0;
+}
+
+/* Shop Page Styles */
+.shop-container {
+    padding: 2rem;
+}
+
+.shop-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.product-card {
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.product-card h2 {
+    margin: 0.5rem 0;
+}
+
+.product-card p {
+    margin: 1rem 0;
+}
+
+.product-card .add-to-cart {
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.product-card .add-to-cart:hover {
+    background-color: #d35400;
+}
+
+/* Contact Page Styles */
+.contact-container {
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+}
+
+.contact-form button:hover {
+    background-color: #d35400;
+}
+
+/* Cart Page Styles */
+.cart-container {
+    padding: 2rem;
+    text-align: center;
+}
+
+.cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+.cart-items li {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.total {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.checkout-btn {
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.checkout-btn:hover {
+    background-color: #d35400;
+}
+/* Add to Cart Button Styles */
+.add-to-cart {
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.add-to-cart:hover {
+    background-color: #d35400;
+}
+
+.add-to-cart:active, .add-to-cart.clicked {
+    transform: scale(0.95);
+}
+
+/* Cart Item Styles */
+.cart-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.cart-items .item-quantity {
+    margin: 0 1rem;
+}
+
+.remove-from-cart {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.remove-from-cart:hover {
+    background-color: #c0392b;
+}
